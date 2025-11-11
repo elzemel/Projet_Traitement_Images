@@ -3,7 +3,7 @@
 using namespace cv;
 
 int main() {
-    Mat img = imread("test.jpg");
+    Mat img = imread("./img/test.jpg");
     if (img.empty()) {
         std::cout << "Image not found!\n";
         return -1;
@@ -13,4 +13,4 @@ int main() {
     return 0;
 }
 
-//g++ main.cpp -o test `pkg-config --cflags --libs opencv4` ./test
+//g++ main.cpp -o test `pkg-config --cflags --libs opencv4`
