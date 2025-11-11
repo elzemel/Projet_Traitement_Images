@@ -3,7 +3,7 @@
 using namespace cv;
 
 int main() {
-    Mat img = imread("./img/test.jpg");
+    Mat img = imread("./img/illusion.jpg");
     if (img.empty()) {
         std::cout << "Image not found!\n";
         return -1;
